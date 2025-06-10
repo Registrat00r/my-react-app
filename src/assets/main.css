@@ -1,25 +1,23 @@
-@import url(base/normalize.css);
-@import url(base/content.css);
-
-@import url(./blocks/header.css);
-@import url(blocks/promo.css);
-@import url(blocks/company.css);
-@import url(./blocks/footer.css);
+@import url(normalize.css);
+@import url(content.css);
 
 /* Шрифты */
-@import url(base/font.css);
+@import url(font.css);
 
 /*Прелоадер*/
 /*@import url(blocks/loader.css); */
 
 /* Блоки */
-/* 
-@import url(blocks/sounds.css);
-@import url(blocks/plugins.css);
-@import url(blocks/studio.css);
-@import url(blocks/creator.css);
-@import url(blocks/customization.css);
-@import url(blocks/jobs.css);
+@import url(../components/Header/header.css);
+@import url(../components/Main/promo/promo.css);
+@import url(../components/Main/company/company.css);
+@import url(../components/Main/sounds/sounds.css);
+@import url(../components/Main/plugins/plugins.css);
+@import url(../components/Main/studio/studio.css);
+@import url(../components/Main/creator/creator.css);
+@import url(../components/Main/customization/customization.css);
+@import url(../components/Main/jobs/jobs.css);
+@import url(../components/Footer/footer.css);
 
 /* Форма */ 
 /*@import url(blocks/forms.css); */

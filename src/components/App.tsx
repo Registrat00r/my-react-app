@@ -1,18 +1,12 @@
-//import { Children } from 'react';
-import { Header } from './Header';
 import { Layout } from './Layout';
-import { Footer } from './Footer';
+import { Home } from './Home';
 
 
 
-export const App = (): React.ReactElement => {
+export const App = () => {
   return (
-    <div className="container">
-      <Header />
-      <Layout>
-      </Layout>
-      <Footer />
-    </div>
-
-  )
-}
+    <Layout>
+      <Home/>
+    </Layout>
+  );
+};

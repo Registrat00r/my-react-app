@@ -1,14 +1,21 @@
 import type React from "react"
-import { Promo } from "./promo"
-import { Company } from "./Company"
+import { Header } from "./Header/Header"
+import { Footer } from "./Footer/Footer"
 
-export type MainProps = {
-    children?: React.ReactNode;
-}
+type LayoutProps = {
+  children: React.ReactNode;
+};
 
-export const Layout = ({children}: MainProps): React.ReactElement => {
+export const Layout = ({ children }: LayoutProps) => {
     return (
-            <Promo />
-            <Company />
+        <div className="container">
+            <Header/>
+            <main>{children}</main>
+            <Footer/>
+        </div>
+
+
     )
 }
+
+

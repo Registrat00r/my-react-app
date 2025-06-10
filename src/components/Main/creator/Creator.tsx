@@ -1,4 +1,5 @@
 import React from "react";
+import CardList from "../../Cards/CardList";
 
 export const Creator = (): React.ReactElement => {
     return (
@@ -12,7 +13,8 @@ export const Creator = (): React.ReactElement => {
                 <button className="creator__button button-sign" type="button">Попробуйте это прямо сейчас</button>
             </div>
             <div className="creator__card__container">
-                 <div className="creator__card  creator__card-1">
+                <CardList/>
+                 {/* <div className="creator__card  creator__card-1">
                     <div className="creator__card__content">
                         <p className="creator__card__description">На Splice я всегда могу найти то, что ищу, будь то именно
                             тот звук,
@@ -53,7 +55,7 @@ export const Creator = (): React.ReactElement => {
                         </p>
                     </div>
 
-                </div>
+                </div> */}
 
             </div>
 

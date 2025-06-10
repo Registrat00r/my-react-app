@@ -1,0 +1,23 @@
+@import url(normalize.css);
+@import url(content.css);
+
+/* Шрифты */
+@import url(font.css);
+
+/*Прелоадер*/
+/*@import url(blocks/loader.css); */
+
+/* Блоки */
+@import url(../components/Header/header.module.css);
+@import url(../components/Main/promo/promo.module.css);
+@import url(../components/Main/company/company.module.css);
+@import url(../components/Main/sounds/sounds.module.css);
+@import url(../components/Main/plugins/plugins.module.css);
+@import url(../components/Main/studio/studio.module.css);
+@import url(../components/Main/creator/creator.module.css);
+@import url(../components/Main/customization/customization.module.css);
+@import url(../components/Main/jobs/jobs.module.css);
+@import url(../components/Footer/footer.module.css);
+
+/* Форма */ 
+/*@import url(blocks/forms.css); */

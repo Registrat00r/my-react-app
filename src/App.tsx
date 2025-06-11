@@ -4,7 +4,7 @@ import viteLogo from '/vite.svg'
 import './App.css'
 import Message from './component/Message.tsx'
 
-function App() {
+export function App() {
   const [count, setCount] = useState(0)
 
   return (
@@ -31,4 +31,4 @@ function App() {
   )
 }
 
-export default App
+

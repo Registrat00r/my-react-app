@@ -40,3 +40,10 @@
     cursor: pointer;
 }
 
+
+.creator__img {
+    width: 1074px;
+    height: 1075px;
+    transform: translate(-80%, -10%);
+    z-index: 0;
+}

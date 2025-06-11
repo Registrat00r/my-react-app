@@ -22,3 +22,5 @@ https://www.figma.com/design/BvIW4tOb68Eal1mFpBK6ys/Splice-Landing-Page-(Communi
 Реализована загрузка карточек с помощью useState или useEffect. Компонент CardList передаётся в тело (в качестве children) компонента Layout. Передаём CardList в Creator.tsx.
 
 Обработка загрузки и ошибки карточек. 
+
+Заменены свои карточки на реализацию загрузки данных с сервера (JSONPlaceholder) с сохранением полученных данных в стейт.

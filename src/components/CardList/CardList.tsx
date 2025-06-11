@@ -1,19 +1,18 @@
 import { useEffect, useState } from 'react';
-import Card from './Cards';
+import Card from '../Card/Card';
 
-interface CardData {
-  role: string;
-  name: string;
-  image: string;
-  description: string;
-  id: number;
+interface CardProps {
+  "userId": number;
+    "id": number;
+    "title": string;
+    "body": string;
 }
 
 export default function CardList() {
-  const [cards, setCards] = useState<CardData[]>([]);
+  const [cards, setCards] = useState<CardProps[]>([]);
 
   useEffect(() => {
-    fetch('/cards.json')
+    fetch('https://jsonplaceholder.typicode.com/posts?_limit=4')
       .then((response) => response.json())
       .then((data) => {
         console.log('Данные из card.json:', data);
@@ -26,8 +25,12 @@ export default function CardList() {
 
   return (
     <div className="creator__card__container">
-      {cards.map((card) => (
-        <Card key={card.id} cardData={card} />
+      {cards.map(card => (
+        <Card
+          id={card.id}
+          title={card.title}
+          text={card.body}
+        />
       ))}
     </div>
   )

@@ -19,6 +19,8 @@
 @import url(../components/Main/jobs/jobs.module.css);
 @import url(../components/Footer/footer.module.css);
 
+@import url(../components/pages/NotFoundPage/NotFoundPage.module.css);
+
 /* Карточки */
 @import url(../components/Card/card.module.css);
 

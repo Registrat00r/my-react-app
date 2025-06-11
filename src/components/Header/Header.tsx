@@ -1,21 +1,23 @@
 import React from 'react';
+import { NavLink } from 'react-router';
 
 export const Header = (): React.ReactElement => {
      return (
         <header className="header container">
         <div className="header__logo logo">
-            <img className="header__logo-img" src="img/logo_start.png" alt="Лого" />
+            
+            <NavLink to = "/"><img className="header__logo-img" src="img/logo_start.png" alt="Лого" /></NavLink>
         </div>
 
         <nav className="header__nav">
             <ul className="header__list">
-                <li className="header__list--item"><a href="#"
-                        className="header__item-link header__item-link--active">СТУДИЯ</a></li>
-                <li className="header__list--item"><a href="#" className="header__item-link">СООБЩЕСТВО</a></li>
-                <li className="header__list--item"><a href="#" className="header__item-link">ЗВУКИ</a></li>
-                <li className="header__list--item"><a href="#" className="header__item-link">ПЛАГИНЫ</a></li>
-                <li className="header__list--item"><a href="#" className="header__item-link">БЛОГ</a></li>
-
+                <li className="header__list--item"><NavLink to = "/"
+                        className="header__item-link header__item-link--active">СТУДИЯ</NavLink></li>
+                <li className="header__list--item"><NavLink to = "/" className="header__item-link">СООБЩЕСТВО</NavLink></li>
+                <li className="header__list--item"><NavLink to = "/" className="header__item-link">ЗВУКИ</NavLink></li>
+                <li className="header__list--item"><NavLink to = "/" className="header__item-link">ПЛАГИНЫ</NavLink></li>
+                <li className="header__list--item"><NavLink to = "/" className="header__item-link">БЛОГ</NavLink></li>
+                <li className="header__list--item"><NavLink to = "../pages">КАРТОЧКИ</NavLink></li>
             </ul>
 
             <div className="header__buttons">

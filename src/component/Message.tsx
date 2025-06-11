@@ -1,10 +1,13 @@
 import './Message.module.css'
 
+interface MessageProps{
+    text:string;
+}
 
-export default function MessageFunc() {
+export default function Message({text}: MessageProps) {
     return (
         <p className="read-the-docs">
-            Click on the Vite and React logos to learn more
+            {text}
         </p>
     )
 };

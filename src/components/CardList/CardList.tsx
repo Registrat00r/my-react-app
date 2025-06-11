@@ -8,7 +8,7 @@ interface CardProps {
     "body": string;
 }
 
-export default function CardList() {
+export function CardList() {
   const [cards, setCards] = useState<CardProps[]>([]);
 
   useEffect(() => {

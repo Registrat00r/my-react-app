@@ -1,9 +1,9 @@
 import { useLocation } from "react-router";
 import { useEffect, useState } from 'react';
+import { Header } from "../../Header/Header";
 import Card from "../../Card/Card";
 
 interface CardProps {
-  "userId": number;
     "id": number;
     "title": string;
     "body": string;
@@ -11,7 +11,7 @@ interface CardProps {
 
 const PAGE_LIMITS = 10;
 
-export default function CardsPage() {
+export function CardsPage() {
     const { search } = useLocation();
     const searchParams = new URLSearchParams(search);
     const limit = searchParams.get('limit') || PAGE_LIMITS;
@@ -30,14 +30,17 @@ export default function CardsPage() {
   }, []);
 
   return (
-    <div className="creator__card__container">
-      {cards.map(card => (
-        <Card
-          id={card.id}
-          title={card.title}
-          text={card.body}
-        />
-      ))}
+    <div className="container__cards">
+      <Header/>
+      <div className="pages__cards">
+        {cards.map(card => (
+          <Card
+            id={card.id}
+            title={card.title}
+            text={card.body}
+          />
+        ))}
+      </div>
     </div>
   )
 }

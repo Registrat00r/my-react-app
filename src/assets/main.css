@@ -23,6 +23,7 @@
 
 /* Карточки */
 @import url(../components/Card/card.module.css);
+@import url(../components/pages/CardsPage/CardsPage.module.css)
 
 
 /* Форма */ 

@@ -17,7 +17,7 @@ export const Header = (): React.ReactElement => {
                 <li className="header__list--item"><NavLink to = "/" className="header__item-link">ЗВУКИ</NavLink></li>
                 <li className="header__list--item"><NavLink to = "/" className="header__item-link">ПЛАГИНЫ</NavLink></li>
                 <li className="header__list--item"><NavLink to = "/" className="header__item-link">БЛОГ</NavLink></li>
-                <li className="header__list--item"><NavLink to = "../pages">КАРТОЧКИ</NavLink></li>
+                <li className="header__list--item"><NavLink to = "/cards">КАРТОЧКИ</NavLink></li>
             </ul>
 
             <div className="header__buttons">

@@ -53,22 +53,6 @@
     align-items: center;
 }
 
-.creator__card-1{
-    transform: translateX(35%);
-}
-
-.creator__card-2{
-    transform: translateX(10%);
-}
-
-.creator__card-3{
-    transform: translateX(55%);
-}
-
-.creator__card-4{
-    transform: translateX(30%);
-}
-
 .card__text{
     margin-top: 10px;
     text-align: center;

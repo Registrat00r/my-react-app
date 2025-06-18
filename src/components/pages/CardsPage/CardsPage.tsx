@@ -1,7 +1,7 @@
 import { useLocation } from "react-router";
 import { useEffect, useState } from 'react';
 import { Header } from "../../Header/Header";
-import Card from "../../Card/Card";
+import { Card } from "../../Card/Card";
 
 
 interface CardProps {

@@ -3,8 +3,6 @@
     color: #ffffff;
 }
 
-
-
 .creator__card__image{
     float: left;
     margin-top: 25px;
@@ -53,22 +51,6 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-}
-
-.creator__card-1{
-    transform: translateX(35%);
-}
-
-.creator__card-2{
-    transform: translateX(10%);
-}
-
-.creator__card-3{
-    transform: translateX(55%);
-}
-
-.creator__card-4{
-    transform: translateX(30%);
 }
 
 .card__text{

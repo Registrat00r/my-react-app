@@ -1,0 +1,15 @@
+.pages__cards{
+    font-family: 'Roboto', sans-serif;
+    
+    display: grid;
+    align-items: center;
+    justify-content: space-between;
+    
+    padding-top: 100px;
+    padding-bottom: 40px;
+    
+    grid-template-columns: repeat(5, 1fr);
+    grid-gap: 10px;
+    
+    background: rgb(165,165,165);
+}

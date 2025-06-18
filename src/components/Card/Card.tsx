@@ -4,7 +4,7 @@ interface CardProps{
   text: string;
 }
 
-export default function Card({ id, title, text }: CardProps) {
+export function Card({ id, title, text }: CardProps) {
   return (
     <div className={`creator__card creator__card-${id}`}>
       <div className={"creator__card__content"}>

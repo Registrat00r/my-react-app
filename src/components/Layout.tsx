@@ -1,16 +1,12 @@
-import type React from "react"
+import { Outlet } from "react-router"
 import { Header } from "./Header/Header"
 import { Footer } from "./Footer/Footer"
 
-type LayoutProps = {
-  children: React.ReactNode;
-};
-
-export const Layout = ({ children }: LayoutProps) => {
+export const Layout = () => {
     return (
         <div className="container">
             <Header/>
-            <main>{children}</main>
+            <main><Outlet/></main>
             <Footer/>
         </div>
 

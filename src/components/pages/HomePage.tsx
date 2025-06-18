@@ -1,5 +1,5 @@
 import { useEffect, useState } from 'react';
-import { Card } from '../Card/Card';
+import Card from '../Card/Card';
 
 interface CardProps {
   "userId": number;
@@ -8,11 +8,11 @@ interface CardProps {
     "body": string;
 }
 
-export function CardList() {
+export default function HomePage() {
   const [cards, setCards] = useState<CardProps[]>([]);
 
   useEffect(() => {
-    fetch('https://jsonplaceholder.typicode.com/posts?_limit=4')
+    fetch('https://jsonplaceholder.typicode.com/posts?_limit=3')
       .then((response) => response.json())
       .then((data) => {
         console.log('Данные из card.json:', data);

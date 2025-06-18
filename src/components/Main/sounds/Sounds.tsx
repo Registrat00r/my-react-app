@@ -16,28 +16,6 @@ export const Sounds = (): React.ReactElement => {
                     
                 </div>
 
-            {/* <div className="swiper">
-                {/* Additional required wrapper
-            <div className="swiper-wrapper">
-                {/* Slides 
-                <div className="swiper-slide">
-                    <img className="sounds__image" src="img/sound_packs.png"
-                        alt="Программное обеспечение для создания музыки" />
-                </div>
-                <div className="swiper-slide">
-                    <img className="sounds__image" src="img/sound_packs.png"
-                        alt="Программное обеспечение для создания музыки" />
-                </div>
-                <div className="swiper-slide">
-                    <img className="sounds__image" src="img/sound_packs.png"
-                        alt="Программное обеспечение для создания музыки" />
-                </div>
-
-            </div>
-            <div className="swiper-button-prev"></div>
-            <div className="swiper-button-next"></div>
-
-        </div> */}
         </section >
     )
 }

@@ -1,6 +1,6 @@
-import React from "react";
-import { CardList } from "../../CardList/CardList";
-import { NavLink } from 'react-router';
+import React from "react"
+import { CardList } from "../../CardList/CardList"
+import { NavLink } from 'react-router'
 
 
 export const Creator = (): React.ReactElement => {

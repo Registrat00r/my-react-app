@@ -19,7 +19,7 @@ https://www.figma.com/design/BvIW4tOb68Eal1mFpBK6ys/Splice-Landing-Page-(Communi
 
 Компонент принимает props и отображать их.
 
-Реализована загрузка карточек с помощью useState или useEffect. Компонент CardList передаётся в тело (в качестве children) компонента Layout. Передаём CardList в Creator.tsx.
+Реализована загрузка карточек с помощью useState и useEffect. Компонент CardList передаётся в тело (в качестве children) компонента Layout. Передаём CardList в Creator.tsx.
 
 Обработка загрузки и ошибки карточек. 
 
@@ -39,3 +39,8 @@ https://www.figma.com/design/BvIW4tOb68Eal1mFpBK6ys/Splice-Landing-Page-(Communi
 
 Для страницы с карточками сделан лимит через useSearchParams.
 
+# Задание 5
+
+Сделан преоладер. Компонент Preloader передаётся в компонент Layout перед Header.
+
+Добавлен css для прелоадера. Реализована загрузка с помощью useState и useEffect. 

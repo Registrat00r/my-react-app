@@ -1,5 +1,5 @@
-import React from "react";
-import { NavLink } from 'react-router';
+import React from "react"
+import { NavLink } from 'react-router'
 
 export const Footer = (): React.ReactElement => {
     return (

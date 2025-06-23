@@ -1,5 +1,5 @@
-import { useEffect, useState } from 'react';
-import Card from '../Card/Card';
+import { useEffect, useState } from 'react'
+import { Card } from '../Card/Card'
 
 interface CardProps {
   "userId": number;
@@ -27,6 +27,7 @@ export default function HomePage() {
     <div className="creator__card__container">
       {cards.map(card => (
         <Card
+          key={card.id}
           id={card.id}
           title={card.title}
           text={card.body}

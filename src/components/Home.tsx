@@ -1,4 +1,4 @@
-import type React from "react"
+import React from "react"
 import { Promo } from "./Main/promo/Promo"
 import { Company } from "./Main/company/Company"
 import { Sounds } from "./Main/sounds/Sounds"

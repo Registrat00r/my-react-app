@@ -5,7 +5,7 @@
 @import url(font.css);
 
 /*Прелоадер*/
-/*@import url(blocks/loader.css); */
+@import url(../components/Preloader/Preloader.module.css);
 
 /* Блоки */
 @import url(../components/Header/header.module.css);

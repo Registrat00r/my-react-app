@@ -1,4 +1,7 @@
 import React from "react"
+import { Slider } from "../../slider/Slider"
+
+
 
 export const Sounds = (): React.ReactElement => {
     return (
@@ -10,12 +13,8 @@ export const Sounds = (): React.ReactElement => {
                 на настольных компьютерах, в Интернете и мобильных устройствах.</p>
             <button className="sounds__button button-sign" type="button">Попробуй звук</button>
 
+            <Slider/>
 
-             <div className="sounds__img">
-                    <img className="sounds__image" src="img/sound_packs.png" alt="Програмное обеспечение для создания музыки"/>    
-                    
-                </div>
-
-        </section >
+        </section>
     )
 }

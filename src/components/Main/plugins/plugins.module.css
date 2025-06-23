@@ -1,9 +1,9 @@
 .plugins {
-    height: 600px;
-
     font-family: 'Roboto', sans-serif;
     display: flex;
     flex-wrap: wrap;
+    
+    height: 600px;
 
     flex-direction: row-reverse;
     justify-content: space-around;
@@ -14,6 +14,7 @@
 
 .plugins__content{
     text-align: left;
+    z-index: 2;
 }
 
 .plugins__subtitle {
@@ -56,6 +57,8 @@
     
     border: 3px solid #7E70FF47;
     border-radius: 50%;
+
+    z-index: 2;
 }
 
 .plugins__circle::before {
@@ -160,5 +163,5 @@
 
     border-radius: 50% 50% 0 0 / 24% 24% 0 0;
 
-    z-index: -1;
+    z-index: 0;
 }

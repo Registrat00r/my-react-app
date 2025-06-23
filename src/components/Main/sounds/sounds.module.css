@@ -55,20 +55,5 @@
     transform: translate(0%, 25%);
 }
 
-.sounds__image {
-    transform: translate(0%, -15%);
-}
 
-.swiper {
-    width: 1440px;
-    height: 380px;
-}
 
-.swiper-slide {
-    text-align: center;
-    font-size: 18px;
-    background: #fff;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}

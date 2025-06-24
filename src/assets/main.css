@@ -31,4 +31,4 @@
 @import 'swiper/css/pagination';
 
 /* Форма */ 
-/*@import url(blocks/forms.css); */
+@import url(../components/form/Form.module.css);

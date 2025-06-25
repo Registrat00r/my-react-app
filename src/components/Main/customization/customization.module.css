@@ -40,10 +40,8 @@
 .customization__block{
     text-align: left;
     justify-content: center;
-    flex-grow: 1;
     column-gap: 90px;
     display: flex;
-    flex-wrap: wrap;
 }
 
 .customization__item{
@@ -52,3 +50,23 @@
     padding: 0%;
 }
 
+/* 1336:768 1024:768 800:480 */
+
+@media(max-width: 1336px) {
+    .customization__title{
+        margin-bottom: 75px;
+        column-gap: 60px;
+    }
+    .customization__block{
+        margin-left: 10px;
+    }
+}
+
+@media(max-width: 1024px) {
+
+}
+
+
+@media(max-width: 800px) {
+
+}

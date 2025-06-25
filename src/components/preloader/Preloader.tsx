@@ -10,7 +10,7 @@ export const Preloader = () => {
     setTimeout(() => {
       document.body.style.overflow = '';
       setloading(false);
-    }, 500);
+    }, 2500);
 
       
   }, []);

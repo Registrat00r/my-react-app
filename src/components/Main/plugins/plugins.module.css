@@ -2,7 +2,7 @@
     font-family: 'Roboto', sans-serif;
     display: flex;
     flex-wrap: wrap;
-    
+
     height: 600px;
 
     flex-direction: row-reverse;
@@ -12,7 +12,7 @@
     align-items: center;
 }
 
-.plugins__content{
+.plugins__content {
     text-align: left;
     z-index: 2;
 }
@@ -54,7 +54,7 @@
     position: relative;
     width: 486px;
     height: 486px;
-    
+
     border: 3px solid #7E70FF47;
     border-radius: 50%;
 
@@ -158,10 +158,46 @@
     position: absolute;
     width: 1440px;
     height: 1100px;
-    
+
     background: linear-gradient(#F4F6F9 58.06%, rgba(244, 246, 249, 0) 102.13%);
 
     border-radius: 50% 50% 0 0 / 24% 24% 0 0;
 
     z-index: 0;
+}
+
+/* 1336:768 1024:768 800:480 */
+
+@media(max-width: 1336px) {
+    .plugins__rectangle {
+        width: 1336px;
+    }
+    
+
+     .plugins__circle{
+        margin-top: 50px;
+
+    }
+}
+
+@media(max-width: 1024px) {
+    .plugins__rectangle {
+        width: 1024px;
+    }
+
+        .plugins__content {
+        text-align: center;
+    }
+
+}
+
+@media(max-width: 800px) {
+    .plugins__rectangle {
+        width: 800px;
+    }
+
+    .plugins__circle{
+        margin-top: 50px;
+
+    }
 }

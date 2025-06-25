@@ -64,3 +64,42 @@
     
     z-index: -1;
 }
+
+/* 1336:768 1024:768 800:480 */
+
+@media (max-width:1336px){
+    .promo__rectangles{
+        width: 1024px;
+    }
+
+    .promo__image{
+        margin-left: 80px;
+        width: 600px;
+    }
+}
+
+@media (max-width:1024px){
+    .promo__rectangles{
+        width: 800px;
+        height: 450px;
+    }
+        .promo__image{
+        margin-left: 0px;
+        width: 470px;
+    }
+        .promo__title{
+            margin-top: 125px;
+        font-size: 45px;
+    }
+}
+
+@media (max-width:800px){
+    .promo__rectangles{
+        width: 800px;
+    }
+
+    .promo__title{
+        margin-top: 100px;
+        font-size: 35px;
+    }
+}

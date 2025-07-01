@@ -74,7 +74,8 @@
 
     .promo__image{
         margin-left: 80px;
-        width: 600px;
+        height:600px;
+        width: 500px;
     }
 }
 
@@ -85,6 +86,7 @@
     }
         .promo__image{
         margin-left: 0px;
+        height: 500px;
         width: 470px;
     }
         .promo__title{

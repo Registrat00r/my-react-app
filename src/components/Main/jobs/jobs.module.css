@@ -5,16 +5,15 @@
 
     border-radius: 22px;
 
-    
+
     margin-top: -75px;
     margin-left: 75px;
 
 
     display: flex;
-    
-    flex-wrap: nowrap;
+
     flex-direction: column;
-    
+
     background: linear-gradient(95.31deg, #A659FF -28.73%, #7178FF 23.23%, #2148FF 62.74%, #FF3517 111.77%);
 }
 
@@ -38,5 +37,28 @@
     background-color: transparent;
     border: 1px solid #FFFFFF;
 
-    cursor:pointer;
+    cursor: pointer;
+}
+
+/* 1336:768 1024:768 800:480 */
+
+@media(max-width: 1336px) {
+    .jobs {
+        width: 890px;
+        margin-left: 12%;
+    }
+}
+
+@media(max-width: 1024px) {
+    .jobs {
+        width: 750px;
+        margin-left: 6%;
+    }
+}
+
+
+@media(max-width: 800px) {
+    .jobs {
+        width: 700px;
+    }
 }

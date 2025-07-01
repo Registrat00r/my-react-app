@@ -3,7 +3,7 @@ import { NavLink } from 'react-router'
 
 export const Footer = (): React.ReactElement => {
     return (
-        <footer className="container footer">
+        <footer className="footer container">
             <div className="footer__content">
                 <NavLink to="/">
                     <img className="footer__logo" src="img/logo_start.png" alt="logo_company" />

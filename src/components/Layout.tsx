@@ -9,7 +9,7 @@ export const Layout = () => {
         <div className="container">
             <Preloader/>
             <Header/>
-            <main><Outlet/></main>
+            <main className="main container"><Outlet/></main>
             <Footer/>
         </div>
 

@@ -2,18 +2,21 @@ import { useEffect, useState } from 'react'
 import { Card } from '../Card/Card'
 
 interface CardProps {
-  "userId": number;
     "id": number;
+    "img": string;
     "title": string;
-    "body": string;
+    "description": string;
 }
 
 export function CardList() {
   const [cards, setCards] = useState<CardProps[]>([]);
 
   useEffect(() => {
-    fetch('https://jsonplaceholder.typicode.com/posts?_limit=4')
-      .then((response) => response.json())
+    fetch('/card.json')
+    
+      .then((response) => 
+        response.json())
+      
       .then((data) => {
         console.log('Данные из card.json:', data);
         setCards(data);
@@ -29,8 +32,9 @@ export function CardList() {
         <Card
           key={card.id}
           id={card.id}
+          img={card.img}
           title={card.title}
-          text={card.body}
+          description={card.description}
         />
       ))}
     </div>

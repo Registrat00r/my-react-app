@@ -1,0 +1,208 @@
+.masculine {
+    font-family: 'Roboto', sans-serif;
+    display: flex;
+    flex-wrap: wrap;
+
+    height: 600px;
+
+    flex-direction: row-reverse;
+    justify-content: space-around;
+
+    text-align: center;
+    align-items: center;
+}
+
+.masculine__content {
+    text-align: left;
+    z-index: 2;
+}
+
+.masculine__subtitle {
+    font-size: 16px;
+
+    color: #60606080;
+}
+
+.masculine__title {
+    color: #e0e0e0;
+
+    font-size: 48px;
+}
+
+.masculine__span {
+    color: #FF6F00;
+}
+
+.masculine__description {
+    font-size: 18px;
+    margin-top: 18px;
+
+    color:#ffffff;
+}
+
+.masculine__button {
+    height: 37px;
+
+    margin-top: 30px;
+
+    background: #ffcc00;
+    color: #FFFFFF;
+
+    border: none;
+    border-radius: 105px;
+    cursor: pointer;
+}
+
+.masculine__circle {
+    position: relative;
+    width: 486px;
+    height: 486px;
+
+    border: 3px solid #FFD700;
+    border-radius: 50%;
+
+    z-index: 2;
+}
+
+.masculine__circle::before {
+    position: absolute;
+    content: "";
+
+    width: 200px;
+    height: 200px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 2;
+
+    border-radius: 50%;
+
+    border: 3px solid #FFD700;
+
+    background: #2f2f2f;
+
+}
+
+.masculine__circle::after {
+    position: absolute;
+    content: "";
+
+    width: 340px;
+    height: 340px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+    border: 3px;
+    border-radius: 50%;
+
+    background: radial-gradient(50% 50% at 50% 50%, #4a4a4a 0%, rgba(129, 64, 155, 0) 100%);
+}
+
+.masculine__hair {
+    position: absolute;
+
+    width: 50px;
+    height: 50px;
+
+    border-radius: 50%;
+}
+
+.masculine__hair-1 {
+    top: -30px;
+    left: 215px;
+}
+
+.masculine__hair-2 {
+    top: 71px;
+    left: 25px;
+}
+
+.masculine__hair-3 {
+    top: 71px;
+    left: 405px;
+}
+
+.masculine__hair-4 {
+    top: 300px;
+    left: -15px;
+}
+
+.masculine__hair-5 {
+    top: 300px;
+    left: 450px;
+}
+
+.masculine__hair-6 {
+    top: 460px;
+    left: 215px;
+}
+
+.masculine__hair-7 {
+    z-index: 2;
+
+    top: 120px;
+    left: 215px;
+}
+
+.masculine__hair-8 {
+    z-index: 2;
+
+    top: 245px;
+    left: 120px;
+}
+
+.masculine__hair-9 {
+    z-index: 2;
+
+    top: 245px;
+    left: 310px;
+}
+
+.masculine__rectangle {
+    position: absolute;
+    width: 1440px;
+    height: 1100px;
+
+    background:#2f2f2f; 
+
+    border-radius: 50% 50% 0 0 / 24% 24% 0 0;
+
+    z-index: 0;
+}
+
+/* 1336:768 1024:768 800:480 */
+
+@media(max-width: 1336px) {
+    .masculine__rectangle {
+        width: 1336px;
+    }
+    
+
+     .masculine__circle{
+        margin-top: 50px;
+
+    }
+}
+
+@media(max-width: 1024px) {
+    .masculine__rectangle {
+        width: 1024px;
+    }
+
+        .masculine__content {
+        text-align: center;
+    }
+
+}
+
+@media(max-width: 800px) {
+    .masculine__rectangle {
+        width: 800px;
+    }
+
+    .masculine__circle{
+        margin-top: 50px;
+
+    }
+}

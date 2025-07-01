@@ -6,8 +6,9 @@ import { Card } from "../../Card/Card"
 
 interface CardProps {
     "id": number;
+    "img": string;
     "title": string;
-    "body": string;
+    "description": string;
 }
 
 const PAGE_LIMITS = 10;
@@ -19,7 +20,7 @@ export function CardsPage() {
     const [cards, setCards] = useState<CardProps[]>([]);
 
   useEffect(() => {
-    fetch(`https://jsonplaceholder.typicode.com/posts?_limit=${limit}`)
+    fetch(`/Pagecard.json`)
       .then((response) => response.json())
       .then((data) => {
         console.log('Данные из card.json:', data);
@@ -28,17 +29,18 @@ export function CardsPage() {
       .catch((error) => {
         console.error('Ошибка при загрузке данных:', error);
       });
-  }, []);
+  }, [limit]);
 
   return (
-    <div className="container__cards">
+    <div className="container container__cards">
       <Header/>
       <div className="pages__cards">
         {cards.map(card => (
           <Card
             id={card.id}
+            img={card.img}
             title={card.title}
-            text={card.body}
+            description={card.description}
           />
         ))}
       </div>

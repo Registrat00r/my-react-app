@@ -16,6 +16,8 @@
 
 .customization__item__img{
     float: left;
+    width: 50px;
+    height: 50px;
 }
 
 .customization__title{
@@ -28,13 +30,6 @@
 .customization__item__title{
     color: white;
     margin-top: 60px;
-}
-
-.customization__item__description{
-    color: #958A8A;
-    font-size: 16px;
-    margin-top: 19px;
-    
 }
 
 .customization__block{
@@ -60,13 +55,4 @@
     .customization__block{
         margin-left: 10px;
     }
-}
-
-@media(max-width: 1024px) {
-
-}
-
-
-@media(max-width: 800px) {
-
 }

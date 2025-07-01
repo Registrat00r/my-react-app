@@ -25,19 +25,19 @@ export const Form = ({isOpen, onClose}: PropsWithChildren<ModalProps>) => {
             <form id="contactForm" onSubmit={Submit}>
                 <div className="form-group">
                     <label htmlFor="surname">Фамилия</label>
-                    <input type="text" id="surname" name="surname" required/>
+                    <input type="text" id="surname" name="surname" placeholder="Фамилия" required/>
                 </div>
                 <div className="form-group">
                     <label htmlFor="name">Имя</label>
-                    <input type="text" id="name" name="name" required/>
+                    <input type="text" id="name" name="name" placeholder="Имя" required/>
+                </div>
+                <div className="form-group">
+                    <label htmlFor="password">Номер</label>
+                    <input type="tel" pattern="[0-9]{11}"  id="phone" name="phone" placeholder="Номер" required/>
                 </div>
                 <div className="form-group">
                     <label htmlFor="email">Почта</label>
-                    <input type="email" id="email" name="email" required/>
-                </div>
-                <div className="form-group">
-                    <label htmlFor="password">Пароль</label>
-                    <input type="password" id="password" name="password" required/>
+                    <input type="email" id="email" name="email" placeholder="Почта(не обязательно)" />
                 </div>
                 <div className="form-buttons">
                     <button type="submit" className="submit-button">Зарегистрироваться</button>

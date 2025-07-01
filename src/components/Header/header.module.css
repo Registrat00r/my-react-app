@@ -12,60 +12,42 @@
 }
 
 .header__nav {
-    column-gap: 300px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
 
-    flex-grow: 1;
-
-    display: flex;
-    align-items: center;
-
-    justify-content: center;
-
-    z-index: 1;
+  gap:400px;
+  padding-top: 50px;
 }
 
 .header__list {
-    margin-left: 79px;
-    margin-top: 52px;
-    gap: 20px;
-
-    display: flex;
-
-    list-style: none;
-    text-align: center;
+  display: flex;
+  gap: 20px;
+  list-style: none;
 }
 
 .header__item-link {
     text-decoration: none;
-    color: rgba(96, 96, 96, 1);
+    color: #FFFFFF;
 }
 
 .header__sign {
     border: none;
     border-radius: 105px;
 
-    margin-left: 28px;
-
+    width: 150px;
     height: 32px;
+
     background: #FFFFFF42;
     color: white;
 
     cursor: pointer;
 }
 
-.header__login {
-    border: none;
-    background: transparent;
-    padding-right: 9px;
-
-    color: white;
-
-    cursor: pointer;
-}
-
-.header__buttons {
-    margin-top: 52px;
-    display: flex;
+.header__logo-img{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
 }
 
 /* 1336:768 1024:768 800:480 */
@@ -112,10 +94,6 @@
         margin-left: 0px;
     }
 
-    .header__buttons{
-        margin-left: 20px;
-        
-    }
     .header__sign{
         height:24px;
     } 

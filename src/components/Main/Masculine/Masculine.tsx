@@ -4,12 +4,11 @@ export const Masculine = (): React.ReactElement => {
     return (
         <section className="section masculine" id="masculine">
             <div className="masculine__content">
-                <h4 className="masculine__subtitle">МУЖСКОЙ СТИЛЬ</h4>
                 <h2 className="masculine__title">В этом заведении ты можешь<br/><span className="masculine__span"> рассчитывать на следующее:</span></h2>
                 <p className="masculine__description">
-                    Первоклассное обслуживание;<br />
-                    Интересные беседы;<br />
-                    Крутые «селфи»<br />
+                    первоклассное обслуживание;<br />
+                    интересные беседы;<br />
+                    крутые «селфи»<br />
                 </p>
                 <button className="masculine__button button-sign" type="button">Выберите стиль</button>
             </div>

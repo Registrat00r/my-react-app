@@ -34,6 +34,7 @@
 }
 
 .masculine__description {
+    line-height: 32px;
     font-size: 18px;
     margin-top: 18px;
 
@@ -41,6 +42,7 @@
 }
 
 .masculine__button {
+    width: 150px;
     height: 37px;
 
     margin-top: 30px;
@@ -114,8 +116,11 @@
 }
 
 .masculine__hair-2 {
-    top: 71px;
-    left: 25px;
+    width: 60px;
+    height: 60px;
+
+    top: 80px;
+    left: 15px;
 }
 
 .masculine__hair-3 {
@@ -129,34 +134,48 @@
 }
 
 .masculine__hair-5 {
+    width: 60px;
+    height: 60px;
+
     top: 300px;
-    left: 450px;
+    left: 440px;
 }
 
 .masculine__hair-6 {
+    width: 70px;
+    height: 70px;
+
     top: 460px;
-    left: 215px;
+    left: 205px;
 }
 
 .masculine__hair-7 {
+    width: 40px;
+    height: 40px;
     z-index: 2;
 
-    top: 120px;
-    left: 215px;
+    top: 125px;
+    left: 220px;
 }
 
 .masculine__hair-8 {
+    width: 40px;
+    height: 40px;
+
     z-index: 2;
 
     top: 245px;
-    left: 120px;
+    left: 125px;
 }
 
 .masculine__hair-9 {
+    width: 40px;
+    height: 40px;
+
     z-index: 2;
 
     top: 245px;
-    left: 310px;
+    left: 320px;
 }
 
 .masculine__rectangle {

@@ -27,11 +27,11 @@ export const Header = (): React.ReactElement => {
     return (
         <header className="header container">
             <div className="header__logo logo">
-
                 <NavLink to="/"><img className="header__logo-img" src="img/barbershopLogo.jpg" alt="Лого" /></NavLink>
             </div>
 
             <nav className="header__nav">
+              <h2 className="header__name">Аристократ</h2>
                 <ul className="header__list">
                     <li className="header__list--item"><NavLink
                         to="/#barbershop" onClick={(e) => handleClick(e, 'barbershop')}
@@ -50,6 +50,9 @@ export const Header = (): React.ReactElement => {
                 <div className="header__buttons">
                     <button className="header__sign button-sign" type="button" onClick={() => setFormOpen(true)}>Записаться</button>
                 </div>
+
+            
+
 
             </nav>
 

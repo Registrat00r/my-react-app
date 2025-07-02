@@ -7,7 +7,7 @@
     flex-direction: row;
     align-items: center;
     
-    padding: 100px 0;
+    padding: 120px 0;
     height: 671px;
 }
 
@@ -45,6 +45,8 @@
 
 .barbershop__button {
     margin-top: 34px;
+
+    width: 150px;
     height: 37px;
 
     background: #0033FF;

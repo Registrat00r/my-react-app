@@ -7,8 +7,17 @@
 }
 
 .header__logo {
-    margin-top: 52px;
+    display:flex;
+    align-items: center;
+
+    margin-top: 45px;
     margin-left: 81px;
+
+}
+
+.header__name{
+    font-style: 13px;
+    color: #ffcc00;
 }
 
 .header__nav {
@@ -16,7 +25,7 @@
   align-items: center;
   justify-content: space-between;
 
-  gap:400px;
+  gap:100px;
   padding-top: 50px;
 }
 

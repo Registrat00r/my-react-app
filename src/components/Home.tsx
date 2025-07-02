@@ -6,7 +6,7 @@ import { Masculine } from "./Main/Masculine/Masculine"
 import { Barbershop } from "./Main/Barbershop/Barbershop"
 import { Creator } from "./Main/creator/Creator"
 import { Customization } from "./Main/customization/Customization"
-import { Jobs } from "./Main/jobs/Jobs"
+import { Jobs } from "./Main/Jobs/Jobs"
 
 
 export const Home = (): React.ReactElement => {

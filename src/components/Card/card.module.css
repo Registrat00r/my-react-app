@@ -12,6 +12,7 @@
 }
 
 .creator__card-img{
+    margin: 10px;
     width: 50px;
     height: 50px;
     border-radius: 50%;
@@ -52,6 +53,8 @@
 .creator__card__content{
     display: flex;
     align-items: center;
+
+    gap:10px;
 }
 
 .creator__card{
@@ -75,7 +78,7 @@
 }
 
 .card__body{
-    margin-top: 10px;
+    margin-left: 10px;
 
     color:white;
 

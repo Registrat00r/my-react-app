@@ -8,7 +8,7 @@ export const Footer = (): React.ReactElement => {
                 <NavLink to="/">
                     <img className="footer__logo" src="img/barbershopLogo.jpg" alt="logo_barbershop" />
                 </NavLink>
-                <p className="footer__description">2021 Splice.com Все права защищены</p>
+                <p className="footer__description">2025 Aristocrat.com Все права защищены</p>
             </div>
 
 

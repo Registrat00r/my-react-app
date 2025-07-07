@@ -15,9 +15,13 @@
 
 }
 
+.header__name-link{
+    text-decoration: none;
+    color: #ffcc00;
+}
+
 .header__name{
     font-style: 13px;
-    color: #ffcc00;
 }
 
 .header__nav {

@@ -64,7 +64,7 @@
 .promo__rectangles{
     background: #2f2f2f;
     
-    width: 1440px;
+    width: 1240px;
     height: 635px;
     
     position: absolute;
@@ -99,7 +99,7 @@
     }
         .promo__image{
         margin-left: 0px;
-        height: 500px;
+        height: 450px;
         width: 470px;
     }
         .promo__title{

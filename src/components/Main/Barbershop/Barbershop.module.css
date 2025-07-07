@@ -75,15 +75,21 @@
     }
 
     .barbershop__content {
+        margin-left: 0;
         text-align: center;
     }
 
     .barbershop__image {
         width: 500px;
     }
+
 }
 
 @media (max-width: 800px) {
+    .barbershop__title{
+        font-size:40px;
+    }
+
     .barbershop__content{
         margin-left: 0px;
     }

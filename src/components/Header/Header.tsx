@@ -31,10 +31,10 @@ export const Header = (): React.ReactElement => {
             </div>
 
             <nav className="header__nav">
-              <h2 className="header__name">Аристократ</h2>
+              <h2 className="header__name"><NavLink to = "/"  className="header__name-link">Аристократ</NavLink></h2>
                 <ul className="header__list">
                     <li className="header__list--item"><NavLink
-                        to="/#barbershop" onClick={(e) => handleClick(e, 'barbershop')}
+                        to="/" onClick={(e) => handleClick(e, 'barbershop')}
                         className="header__item-link">БАРБЕРШОП</NavLink></li>
                     <li className="header__list--item"><NavLink to="/" className="header__item-link"
                      onClick={(e) => handleClick(e, 'stylist')}>СТИЛИСТ</NavLink></li>

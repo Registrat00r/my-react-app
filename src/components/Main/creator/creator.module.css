@@ -48,5 +48,6 @@
 }
 
 .creator__cards{
+    text-decoration: none;
     color: #ffffff;
 }

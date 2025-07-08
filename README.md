@@ -69,4 +69,4 @@ https://www.figma.com/design/BvIW4tOb68Eal1mFpBK6ys/Splice-Landing-Page-(Communi
 
 Сделана адаптация на нужных блоках. Адаптация сделана на 1366px:768; 1024px:768; 800px:400px
 
-Адаптация сделана с помощью media
+Адаптация сделана с помощью media.

@@ -9,16 +9,16 @@ export function Slider() {
             pagination={{ clickable: true }}>
 
             <SwiperSlide>
-                <img className="slider__image" src="img/sound_packs.png"
-                    alt="Программное обеспечение для создания музыки"></img>
+                <img className="slider__image" src="img/slider1.png"
+                    alt="Стрижка бороды"></img>
             </SwiperSlide>
             <SwiperSlide>
-                <img className="slider__image" src="img/sound_packs.png"
-                    alt="Программное обеспечение для создания музыки"></img>
+                <img className="slider__image" src="img/slider2.png"
+                    alt="Стрижка волос"></img>
             </SwiperSlide>
             <SwiperSlide>
-                <img className="slider__image" src="img/sound_packs.png"
-                    alt="Программное обеспечение для создания музыки"></img>
+                <img className="slider__image" src="img/slider3.png"
+                    alt="Наши барберы"></img>
             </SwiperSlide>
 
         </Swiper>

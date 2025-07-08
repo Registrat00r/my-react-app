@@ -1,0 +1,66 @@
+.stylist {
+    font-family: 'Roboto', sans-serif;
+
+    height: 832px;
+    display: flex;
+    text-align: center;
+    align-items: center;
+
+    flex-wrap: wrap;
+    align-content: center;
+    flex-direction: column;
+}
+
+.stylist__subtitle {
+    margin-top: 127px;
+    margin-bottom: 0px;
+
+    font-size: 16px;
+    color: #60606080;
+}
+
+.stylist__title {
+    margin-top: 3px;
+    font-size: 48px;
+}
+
+.stylist__title-span {
+    color: blue;
+}
+
+.stylist__description {
+    font-size: 20px;
+    color: #958A8A;
+    margin-top: 18px;
+}
+
+.stylist__description-span{
+    color: #ffcc00;
+}
+
+.stylist__button {
+    width: 150px;
+    height: 37px;
+
+    margin-top: 34px;
+    margin-bottom: 10px;
+
+    background: #ffcc00;
+    color: #FFFFFF;
+
+    border: none;
+    border-radius: 105px;
+    cursor: pointer;
+}
+
+.stylist__img {
+    height: 380px;
+    background-image: url("/img/line_stylist.png");
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    width: 1440px;
+    transform: translate(0%, 25%);
+}
+
+
+

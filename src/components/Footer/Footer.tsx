@@ -6,79 +6,74 @@ export const Footer = (): React.ReactElement => {
         <footer className="footer container">
             <div className="footer__content">
                 <NavLink to="/">
-                    <img className="footer__logo" src="img/logo_start.png" alt="logo_company" />
+                    <img className="footer__logo" src="img/barbershopLogo.jpg" alt="logo_barbershop" />
                 </NavLink>
-                <p className="footer__description">2021 Splice.com Все права защищены</p>
+                <p className="footer__description">2025 Aristocrat.com Все права защищены</p>
             </div>
 
 
             <nav className="footer__nav">
                 <div className="footer__nav-block">
-                    <h2 className="footer__nav__title">СТУДИЯ</h2>
+                    <h2 className="footer__nav__title">БАРБЕРШОП</h2>
                     <ul className="footer__nav__list">
-                        <li className="footer__nav-list-item"><a href="#">Будущее</a></li>
-                        <li className="footer__nav-list-item"><a href="#">О Splice Студии</a></li>
-                        <li className="footer__nav-list-item"><a href="#">Управление вашей <br />производственной библиотекой</a>
-                        </li>
-                        <li className="footer__nav-list-item"><a href="#">Сотрудничество с Baewatch</a></li>
+                        <li className="footer__nav-list-item"><a className="footer__nav-item" href="#">Будущее</a></li>
+                        <li className="footer__nav-list-item"><a className="footer__nav-item" href="#">О нас</a></li>
+                        <li className="footer__nav-list-item"><a className="footer__nav-item" href="#">Сотрудничество с нами</a></li>
                     </ul>
                 </div>
 
                 <div className="footer__nav-block">
-                    <h2 className="footer__nav__title">ПЛАГИНЫ</h2>
+                    <h2 className="footer__nav__title">СТИЛИСТ</h2>
                     <ul className="footer__nav__list">
 
-                        <li className="footer__nav-list-item"><a href="#">Лучшие VSTs</a></li>
-                        <li className="footer__nav-list-item"><a href="#">Сыворотка</a></li>
-                        <li className="footer__nav-list-item"><a href="#"> Взял в рассрочку.</a></li>
-                        <li className="footer__nav-list-item"><a href="#">Бесплатные плагины</a></li>
-                        <li className="footer__nav-list-item"><a href="#">Ведущие производители</a></li>
+                        <li className="footer__nav-list-item"><a className="footer__nav-item" href="#">Лучшие стилисты</a></li>
+                        <li className="footer__nav-list-item"><a className="footer__nav-item" href="#">Интересные<br/>истории</a></li>
+                        <li className="footer__nav-list-item"><a className="footer__nav-item" href="#">Польза стилиста</a></li>
+                        <li className="footer__nav-list-item"><a className="footer__nav-item" href="#">Бесплатный разговор</a></li>
                     </ul>
                 </div>
 
                 <div className="footer__nav-block">
-                    <h2 className="footer__nav__title">СООБЩЕСТВО</h2>
+                    <h2 className="footer__nav__title">МУЖСКОЙ СТИЛЬ</h2>
                     <ul className="footer__nav__list">
 
-                        <li className="footer__nav-list-item"><a href="#">Проекты Ableton Live</a></li>
-                        <li className="footer__nav-list-item"><a href="#">Проекты FL Studio</a></li>
-                        <li className="footer__nav-list-item"><a href="#">Logic Pro X Проекты</a></li>
-                        <li className="footer__nav-list-item"><a href="#">Проекты Garageband</a></li>
-                        <li className="footer__nav-list-item"><a href="#">Конкурсы ремиксов</a></li>
-                        <li className="footer__nav-list-item"><a href="#">Секреты Tiestos</a></li>
+                        <li className="footer__nav-list-item"><a className="footer__nav-item" href="#">Выбор прически</a></li>
+                        <li className="footer__nav-list-item"><a className="footer__nav-item" href="#">Выбор бороды</a></li>
+                        <li className="footer__nav-list-item"><a className="footer__nav-item" href="#">Выбор цвета</a></li>
+                        <li className="footer__nav-list-item"><a className="footer__nav-item" href="#">Выбор пользователей</a></li>
+                        <li className="footer__nav-list-item"><a className="footer__nav-item" href="#">Выбор стилистов</a></li>
                     </ul>
                 </div>
 
                 <div className="footer__nav-block">
-                    <h2 className="footer__nav__title">БИТМЕЙКЕР</h2>
+                    <h2 className="footer__nav__title">УСЛУГИ</h2>
                     <ul className="footer__nav__list">
 
-                        <li className="footer__nav-list-item"><a href="#">Создайте Свой собственный Ритм</a></li>
-                        <li className="footer__nav-list-item"><a href="#">Вакапелла</a></li>
-                        <li className="footer__nav-list-item"><a href="#">Just Blaze</a></li>
+                        <li className="footer__nav-list-item"><a className="footer__nav-item" href="#">Создай свой стиль</a></li>
+                        <li className="footer__nav-list-item"><a className="footer__nav-item" href="#">Мойка головы</a></li>
+                        <li className="footer__nav-list-item"><a className="footer__nav-item" href="#">Напитки</a></li>
                     </ul>
                 </div>
 
                 <div className="footer__nav-block">
-                    <h2 className="footer__nav__title">ЗВУКИ</h2>
+                    <h2 className="footer__nav__title">БАРБЕРЫ</h2>
                     <ul className="footer__nav__list">
 
-                        <li className="footer__nav-list-item"><a href="#">Особенности</a></li>
-                        <li className="footer__nav-list-item"><a href="#">Каталог</a></li>
-                        <li className="footer__nav-list-item"><a href="#">Как Яуз использует звуки</a></li>
-                        <li className="footer__nav-list-item"><a href="#">химера deadmau5s</a></li>
-                        <li className="footer__nav-list-item"><a href="#">KSHMR Vol. 2</a></li>
+                        <li className="footer__nav-list-item"><a className="footer__nav-item" href="#">Особенности</a></li>
+                        <li className="footer__nav-list-item"><a className="footer__nav-item" href="#">Каталог</a></li>
+                        <li className="footer__nav-list-item"><a className="footer__nav-item" href="#">Имя Фамилия</a></li>
+                        <li className="footer__nav-list-item"><a className="footer__nav-item" href="#">Время</a></li>
                     </ul>
                 </div>
 
                 <div className="footer__nav-block">
-                    <h2 className="footer__nav__title">БЛОГ</h2>
+                    <h2 className="footer__nav__title">О НАС</h2>
                     <ul className="footer__nav__list">
-                        <li className="footer__nav-list-item"><a href="#">Последние сообщения</a></li>
-                        <li className="footer__nav-list-item"><a href="#">Использование обезглавливателя<br /> Soundtoys</a></li>
-                        <li className="footer__nav-list-item"><a href="#">Освоение 101</a></li>
-                        <li className="footer__nav-list-item"><a href="#">Создание будущих ритмов</a></li>
-                        <li className="footer__nav-list-item"><a href="#">Принадлежность к месту соединения</a></li>
+                        <li className="footer__nav-list-item"><a className="footer__nav-item" href="#">Местонахождение</a></li>
+                        <li className="footer__nav-list-item"><a className="footer__nav-item" href="#">Города</a></li>
+                        <li className="footer__nav-list-item"><a className="footer__nav-item" href="#">Развитие</a></li>
+                        <li className="footer__nav-list-item"><a className="footer__nav-item" href="#">История</a></li>
+                        <li className="footer__nav-list-item"><a className="footer__nav-item" href="#">Сообщество</a></li>
                     </ul>
                 </div>
             </nav>
@@ -93,11 +88,11 @@ export const Footer = (): React.ReactElement => {
 
 
                 <ul className="footer__nav__list">
-                    <li className="footer__nav-list-item"><a href="#">Условия использования</a></li>
-                    <li className="footer__nav-list-item"><a href="#">Политика конфиденциальности</a></li>
-                    <li className="footer__nav-list-item"><a href="#">Работы</a></li>
-                    <li className="footer__nav-list-item"><a href="#">Контакты</a></li>
-                    <li className="footer__nav-list-item"><a href="#">Помощь</a></li>
+                    <li className="footer__nav-list-item"><a className="footer__nav-item" href="#">Условия использования</a></li>
+                    <li className="footer__nav-list-item"><a className="footer__nav-item" href="#">Политика конфиденциальности</a></li>
+                    <li className="footer__nav-list-item"><a className="footer__nav-item" href="#">Работы</a></li>
+                    <li className="footer__nav-list-item"><a className="footer__nav-item" href="#">Контакты</a></li>
+                    <li className="footer__nav-list-item"><a className="footer__nav-item" href="#">Помощь</a></li>
                 </ul>
             </div>
 

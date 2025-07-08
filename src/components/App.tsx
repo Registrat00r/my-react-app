@@ -1,8 +1,8 @@
 import { BrowserRouter, Routes, Route } from 'react-router-dom'
 import { Layout } from './Layout'
 import { Home } from './Home'
-import { CardsPage } from './pages/CardsPage/CardsPage'
-import { NotFoundPage } from './pages/NotFoundPage/NotFoundPage'
+import { CardsPage } from '../Pages/CardsPage/CardsPage'
+import { NotFoundPage } from '../Pages/NotFoundPage/NotFoundPage'
 
 
 export const App = () => {

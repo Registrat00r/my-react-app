@@ -1,7 +1,7 @@
 import { useLocation } from "react-router"
 import { useEffect, useState } from 'react'
-import { Header } from "../../Header/Header"
-import { Card } from "../../Card/Card"
+import { Header } from "../../components/Header/Header"
+import { Card } from "../../components/Card/Card"
 
 
 interface CardProps {
@@ -37,6 +37,7 @@ export function CardsPage() {
       <div className="pages__cards">
         {cards.map(card => (
           <Card
+            key={card.id}
             id={card.id}
             img={card.img}
             title={card.title}

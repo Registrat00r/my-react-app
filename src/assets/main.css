@@ -19,11 +19,11 @@
 @import url(../components/Main/Jobs/Jobs.module.css);
 @import url(../components/Footer/footer.module.css);
 
-@import url(../components/pages/NotFoundPage/NotFoundPage.module.css);
+@import url(../Pages/NotFoundPage/NotFoundPage.module.css);
 
 /* Карточки */
 @import url(../components/Card/card.module.css);
-@import url(../components/pages/CardsPage/CardsPage.module.css);
+@import url(../Pages/CardsPage/CardsPage.module.css);
 
 /*Слайдер*/
 @import url(../components/slider/Slider.module.css);

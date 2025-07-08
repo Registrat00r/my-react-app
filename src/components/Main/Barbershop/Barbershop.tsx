@@ -5,7 +5,7 @@ export const Barbershop = (): React.ReactElement => {
          <section className="section barbershop" id="barbershop">
             <div className="barbershop__content">
                 <h4 className="barbershop__subtitle">БАРБЕРШОП</h4>
-                <h2 className="barbershop__title">Какой <span className="barbershop__span">барбершоп</span> выбрать?</h2>
+                <h2 className="barbershop__title">Почему выбирают <span className="barbershop__span">барбершоп</span>?</h2>
                 <p className="barbershop__description">Барбершоп  — это не просто заведение, где можно постричься!<br />
                     <br />
                     Сюда приходят за новыми эмоциями. Здесь тебе предложат поговить<br/>

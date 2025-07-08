@@ -1,0 +1,14 @@
+.pages__cards{
+    font-family: 'Roboto', sans-serif;
+    
+    display:flex;
+    flex-wrap:wrap;
+    justify-content: center;
+    align-items: center;
+
+    gap: 30px;
+    padding-top: 100px;
+
+    background: rgb(92, 61, 7);
+}
+

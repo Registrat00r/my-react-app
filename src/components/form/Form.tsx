@@ -1,4 +1,4 @@
-import type React from 'react';
+import  React from 'react';
 import type { PropsWithChildren } from 'react';
 import ReactDOM from 'react-dom'
 
@@ -32,8 +32,8 @@ export const Form = ({isOpen, onClose}: PropsWithChildren<ModalProps>) => {
                     <input type="text" id="name" name="name" placeholder="Имя" required/>
                 </div>
                 <div className="form-group">
-                    <label htmlFor="password">Номер</label>
-                    <input type="tel" pattern="[0-9]{11}"  id="phone" name="phone" placeholder="Номер" required/>
+                    <label htmlFor="phome">Номер</label>
+                    <input type="tel"  id="phone" name="phone" placeholder="Номер" required/>
                 </div>
                 <div className="form-group">
                     <label htmlFor="email">Почта</label>
